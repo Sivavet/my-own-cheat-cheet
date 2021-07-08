@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    color:green;
+    font-weight: bold;
+}
+
+table{
+    margin: 20px auto;
+    border: 2px solid lightcoral;
+}
+th{
+    background-color: lightgreen;
+}
+td{
+    background-color: lightgrey;
+    text-align: left;
+    padding: 2.5px 10px;
+}
+td:first-child{
+    font-weight: bold;
+}
